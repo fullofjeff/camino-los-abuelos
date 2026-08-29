@@ -138,7 +138,6 @@
       <a class="btn" href="#tour">Take the 3D tour</a>
       <a class="btn alt" id="srcLink" target="_blank" rel="noopener">View on Zillow</a>
       <a class="btn alt" id="mapLink" target="_blank" rel="noopener">Open in Maps</a>
-      <small id="attrib"></small>
     </div></aside>
   </div>
 </div>
@@ -167,8 +166,6 @@ document.getElementById('bbs').innerHTML = [
 document.getElementById('desc').textContent = L.desc;
 document.getElementById('srcLink').href = L.source;
 document.getElementById('mapLink').href = `https://maps.apple.com/?ll=${L.lat},${L.lng}&q=${encodeURIComponent(L.addr.streetAddress)}`;
-document.getElementById('attrib').textContent =
-  `Listed by ${L.brokerage}. Coordinates ${L.lat}, ${L.lng}.`;
 
 const FACTS = [
   ['Type', 'Single Family Residence'], ['Year built', L.year], ['Lot', L.lot],
