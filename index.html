@@ -1,0 +1,371 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>794 Camino Los Abuelos, Lamy, NM 87540</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text y='26' font-size='26'>🏜️</text></svg>">
+<style>
+  :root{
+    --blue:#006aff; --ink:#0d0d0d; --muted:#596b7a; --line:#e0e5e8;
+    --bg:#fff; --card:#fff; --shade:#f5f7f8;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{ --ink:#f0f2f4; --muted:#a3b0ba; --line:#2c3338; --bg:#111417; --card:#181c20; --shade:#1e2328; }
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);
+    font:16px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;}
+  a{color:var(--blue)}
+  .wrap{max-width:1128px;margin:0 auto;padding:0 20px}
+  header.top{position:sticky;top:0;z-index:40;background:var(--bg);border-bottom:1px solid var(--line)}
+  header.top .wrap{display:flex;align-items:center;gap:16px;height:56px}
+  .brand{font-weight:800;letter-spacing:-.02em;color:var(--blue);font-size:20px}
+  .top nav{margin-left:auto;display:flex;gap:20px;font-size:14px;color:var(--muted)}
+  .top nav a{color:inherit;text-decoration:none}
+  .top nav a:hover{color:var(--blue)}
+
+  /* hero mosaic */
+  .mosaic{display:grid;grid-template-columns:2fr 1fr 1fr;grid-template-rows:1fr 1fr;gap:4px;
+    height:min(58vh,520px);margin-top:16px;border-radius:10px;overflow:hidden}
+  .mosaic img{width:100%;height:100%;object-fit:cover;display:block;cursor:zoom-in;background:var(--shade)}
+  .mosaic .big{grid-row:span 2}
+  .mosaic .more{position:relative}
+  .mosaic .more button{position:absolute;right:12px;bottom:12px;background:var(--card);color:var(--ink);
+    border:1px solid var(--line);border-radius:6px;padding:8px 12px;font-size:13px;font-weight:600;cursor:pointer;
+    box-shadow:0 1px 6px rgba(0,0,0,.18)}
+
+  .cols{display:grid;grid-template-columns:1fr 340px;gap:32px;margin:28px 0 60px}
+  @media (max-width:900px){ .cols{grid-template-columns:1fr} .mosaic{grid-template-columns:1fr;grid-template-rows:1fr;height:44vh}
+    .mosaic > *:not(.big){display:none} }
+
+  .price{font-size:34px;font-weight:800;letter-spacing:-.02em;margin:0}
+  .addr{color:var(--muted);margin:4px 0 0}
+  .status{display:inline-block;font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;
+    color:#0a7d33;background:rgba(10,125,51,.1);border-radius:4px;padding:3px 8px;margin-bottom:10px}
+  .bbs{display:flex;gap:26px;margin:18px 0 0;padding:16px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+  .bbs div b{font-size:19px}
+  .bbs div span{color:var(--muted);font-size:14px;margin-left:4px}
+
+  h2{font-size:20px;margin:34px 0 12px}
+  p.desc{margin:0;color:var(--ink)}
+  .facts{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:10px 24px;margin:0;padding:0;list-style:none}
+  .facts li{display:flex;gap:8px;padding:8px 0;border-bottom:1px solid var(--line);font-size:15px}
+  .facts li span{color:var(--muted);min-width:110px}
+  table{width:100%;border-collapse:collapse;font-size:15px}
+  th,td{text-align:left;padding:10px 8px;border-bottom:1px solid var(--line)}
+  th{color:var(--muted);font-weight:600;font-size:13px;text-transform:uppercase;letter-spacing:.04em}
+  td.chg{color:var(--muted);font-size:13px}
+
+  aside .card{position:sticky;top:76px;border:1px solid var(--line);border-radius:10px;padding:20px;background:var(--card);
+    box-shadow:0 2px 10px rgba(0,0,0,.05)}
+  aside .btn{display:block;width:100%;text-align:center;background:var(--blue);color:#fff;border:0;border-radius:6px;
+    padding:12px;font-size:15px;font-weight:700;cursor:pointer;text-decoration:none;margin-bottom:10px}
+  aside .btn.alt{background:transparent;color:var(--blue);border:1px solid var(--blue)}
+  aside small{display:block;color:var(--muted);font-size:12px;margin-top:12px;line-height:1.45}
+
+  /* tour */
+  .tour{display:grid;grid-template-columns:190px 1fr;gap:16px;border:1px solid var(--line);border-radius:10px;overflow:hidden}
+  @media (max-width:700px){ .tour{grid-template-columns:1fr} }
+  .rooms{max-height:460px;overflow:auto;background:var(--shade);padding:8px}
+  .rooms button{display:flex;gap:8px;align-items:center;width:100%;background:none;border:0;border-radius:6px;
+    padding:6px;cursor:pointer;color:var(--ink);text-align:left;font-size:13px}
+  .rooms button:hover{background:rgba(0,106,255,.09)}
+  .rooms button[aria-current="true"]{background:var(--blue);color:#fff}
+  .rooms img{width:56px;height:34px;object-fit:cover;border-radius:4px;background:#000}
+  .stage{position:relative;background:#000;min-height:460px}
+  .stage canvas,.stage img.flat{width:100%;height:460px;display:block}
+  .stage img.flat{object-fit:cover;cursor:grab}
+  .stage .label{position:absolute;left:12px;top:12px;background:rgba(0,0,0,.6);color:#fff;font-size:13px;
+    padding:5px 10px;border-radius:5px}
+  .stage .hint{position:absolute;right:12px;bottom:12px;background:rgba(0,0,0,.6);color:#fff;font-size:12px;
+    padding:5px 10px;border-radius:5px}
+
+  /* photo grid + lightbox */
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:6px}
+  .grid img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:6px;cursor:zoom-in;background:var(--shade)}
+  dialog#lb{border:0;padding:0;background:rgba(0,0,0,.94);width:100vw;height:100vh;max-width:100vw;max-height:100vh}
+  dialog#lb::backdrop{background:rgba(0,0,0,.9)}
+  dialog#lb img{width:100%;height:100vh;object-fit:contain}
+  dialog#lb .nav{position:fixed;top:50%;transform:translateY(-50%);background:rgba(255,255,255,.14);color:#fff;
+    border:0;font-size:26px;width:48px;height:64px;cursor:pointer}
+  dialog#lb .prev{left:12px} dialog#lb .next{right:12px}
+  dialog#lb .close{position:fixed;top:14px;right:16px;background:none;border:0;color:#fff;font-size:30px;cursor:pointer}
+  dialog#lb .count{position:fixed;top:18px;left:20px;color:#fff;font-size:14px}
+  footer{border-top:1px solid var(--line);padding:22px 0 60px;color:var(--muted);font-size:12.5px}
+</style>
+</head>
+<body>
+
+<header class="top"><div class="wrap">
+  <span class="brand">794 Camino Los Abuelos</span>
+  <nav>
+    <a href="#tour">3D tour</a><a href="#photos">Photos</a>
+    <a href="#facts">Facts</a>
+  </nav>
+</div></header>
+
+<div class="wrap">
+  <div class="mosaic" id="mosaic"></div>
+
+  <div class="cols">
+    <main>
+      <span class="status" id="status"></span>
+      <h1 class="price" id="price"></h1>
+      <p class="addr" id="addr"></p>
+      <div class="bbs" id="bbs"></div>
+
+      <h2>What's special</h2>
+      <p class="desc" id="desc"></p>
+
+      <h2 id="tour">3D Home tour &mdash; <span id="panoCount"></span> panoramas</h2>
+      <div class="tour">
+        <div class="rooms" id="rooms"></div>
+        <div class="stage" id="stage">
+          <div class="label" id="panoLabel"></div>
+          <div class="hint">Drag to look around &middot; scroll to zoom</div>
+        </div>
+      </div>
+
+      <h2 id="facts">Facts &amp; features</h2>
+      <ul class="facts" id="factlist"></ul>
+
+      <h2 id="photos">All photos (<span id="photoCount"></span>)</h2>
+      <div class="grid" id="grid"></div>
+    </main>
+
+    <aside><div class="card">
+      <a class="btn" href="#tour">Take the 3D tour</a>
+      <a class="btn alt" id="srcLink" target="_blank" rel="noopener">View on Zillow</a>
+      <a class="btn alt" id="mapLink" target="_blank" rel="noopener">Open in Maps</a>
+      <small id="attrib"></small>
+    </div></aside>
+  </div>
+</div>
+
+<dialog id="lb">
+  <span class="count" id="lbCount"></span>
+  <button class="close" data-act="close" aria-label="Close">&times;</button>
+  <button class="nav prev" data-act="prev" aria-label="Previous">&lsaquo;</button>
+  <img id="lbImg" alt="">
+  <button class="nav next" data-act="next" aria-label="Next">&rsaquo;</button>
+</dialog>
+
+<script src="data.js"></script>
+<script>
+const D = window.LISTING, L = D.listing;
+const usd = n => '$' + n.toLocaleString('en-US');
+
+/* ---------- header + facts ---------- */
+document.getElementById('status').textContent = L.status === 'FOR_SALE' ? 'For sale' : L.status;
+document.getElementById('price').textContent = usd(L.price);
+document.getElementById('addr').textContent =
+  `${L.addr.streetAddress}, ${L.addr.city}, ${L.addr.state} ${L.addr.zipcode}`;
+document.getElementById('bbs').innerHTML = [
+  [L.beds, 'beds'], [L.baths, 'baths'], [L.sqft.toLocaleString(), 'sqft'], [L.lot, '']
+].map(([v, k]) => `<div><b>${v}</b><span>${k}</span></div>`).join('');
+document.getElementById('desc').textContent = L.desc;
+document.getElementById('srcLink').href = L.source;
+document.getElementById('mapLink').href = `https://maps.apple.com/?ll=${L.lat},${L.lng}&q=${encodeURIComponent(L.addr.streetAddress)}`;
+document.getElementById('attrib').textContent =
+  `Listed by ${L.brokerage}. Coordinates ${L.lat}, ${L.lng}.`;
+
+const FACTS = [
+  ['Type', 'Single Family Residence'], ['Year built', L.year], ['Lot', L.lot],
+  ['Living area', L.sqft.toLocaleString() + ' sqft'], ['Price / sqft', '$' + Math.round(L.price / L.sqft)],
+  ['Bedrooms', L.beds], ['Bathrooms', L.baths + ' (2 full, 1 three-quarter)'],
+  ['Heating', 'Propane, Radiant'], ['Cooling', 'Window unit(s)'],
+  ['Parking', '2 garage spaces']
+];
+document.getElementById('factlist').innerHTML =
+  FACTS.map(([k, v]) => `<li><span>${k}</span><b>${v}</b></li>`).join('');
+
+/* ---------- photos ---------- */
+const P = D.photos;
+document.getElementById('photoCount').textContent = P.length;
+document.getElementById('mosaic').innerHTML =
+  `<img class="big" src="${P[0]}" alt="" data-i="0">` +
+  P.slice(1, 5).map((s, i) =>
+    (i === 3 ? `<div class="more"><img src="${s}" alt="" data-i="${i + 1}"><button id="seeAll">See all ${P.length} photos</button></div>`
+             : `<img src="${s}" alt="" data-i="${i + 1}">`)).join('');
+document.getElementById('grid').innerHTML =
+  P.map((s, i) => `<img loading="lazy" src="${s}" alt="Photo ${i + 1}" data-i="${i}">`).join('');
+document.getElementById('seeAll').onclick =
+  () => document.getElementById('photos').scrollIntoView({ behavior: 'smooth' });
+
+const lb = document.getElementById('lb'), lbImg = document.getElementById('lbImg'),
+      lbCount = document.getElementById('lbCount');
+let li = 0;
+const show = i => { li = (i + P.length) % P.length; lbImg.src = P[li]; lbCount.textContent = `${li + 1} / ${P.length}`; };
+document.body.addEventListener('click', e => {
+  const t = e.target;
+  if (t.matches('img[data-i]')) { show(+t.dataset.i); lb.showModal(); return; }
+  const act = t.dataset && t.dataset.act;
+  if (act === 'close') lb.close();
+  if (act === 'next') show(li + 1);
+  if (act === 'prev') show(li - 1);
+});
+document.addEventListener('keydown', e => {
+  if (!lb.open) return;
+  if (e.key === 'ArrowRight') show(li + 1);
+  if (e.key === 'ArrowLeft') show(li - 1);
+});
+
+/* ---------- 360 panorama viewer (no dependencies) ---------- */
+const PANOS = D.panos;
+document.getElementById('panoCount').textContent = PANOS.length;
+document.getElementById('rooms').innerHTML = PANOS.map((p, i) =>
+  `<button data-p="${i}" aria-current="${i === 0}">
+     <img loading="lazy" src="${p.file}" alt=""><span>${p.order}. ${p.room}</span></button>`).join('');
+
+const stage = document.getElementById('stage');
+const panoLabel = document.getElementById('panoLabel');
+const VS = `attribute vec3 p;uniform mat4 mvp;varying vec3 v;
+void main(){v=p;gl_Position=mvp*vec4(p,1.0);}`;
+const FS = `precision mediump float;varying vec3 v;uniform sampler2D t;
+void main(){vec3 d=normalize(v);
+  float u=atan(d.z,d.x)/6.2831853+0.5, w=acos(clamp(d.y,-1.0,1.0))/3.14159265;
+  gl_FragColor=texture2D(t,vec2(u,w));}`;
+
+let gl, prog, tex, yaw = 0, pitch = 0, fov = 75, raf = 0, webglOK = false;
+
+function initGL() {
+  const c = document.createElement('canvas');
+  gl = c.getContext('webgl', { antialias: true });
+  if (!gl) return false;
+  stage.insertBefore(c, stage.firstChild);
+  const sh = (t, s) => { const o = gl.createShader(t); gl.shaderSource(o, s); gl.compileShader(o); return o; };
+  prog = gl.createProgram();
+  gl.attachShader(prog, sh(gl.VERTEX_SHADER, VS));
+  gl.attachShader(prog, sh(gl.FRAGMENT_SHADER, FS));
+  gl.linkProgram(prog); gl.useProgram(prog);
+
+  // UV sphere
+  const pos = [], idx = [], N = 48;
+  for (let i = 0; i <= N; i++) for (let j = 0; j <= N * 2; j++) {
+    const th = i / N * Math.PI, ph = j / (N * 2) * Math.PI * 2;
+    pos.push(Math.sin(th) * Math.cos(ph), Math.cos(th), Math.sin(th) * Math.sin(ph));
+  }
+  const row = N * 2 + 1;
+  for (let i = 0; i < N; i++) for (let j = 0; j < N * 2; j++) {
+    const a = i * row + j;
+    idx.push(a, a + row, a + 1, a + 1, a + row, a + row + 1);
+  }
+  const vb = gl.createBuffer();
+  gl.bindBuffer(gl.ARRAY_BUFFER, vb);
+  gl.bufferData(gl.ARRAY_BUFFER, new Float32Array(pos), gl.STATIC_DRAW);
+  const loc = gl.getAttribLocation(prog, 'p');
+  gl.enableVertexAttribArray(loc); gl.vertexAttribPointer(loc, 3, gl.FLOAT, false, 0, 0);
+  const ib = gl.createBuffer();
+  gl.bindBuffer(gl.ELEMENT_ARRAY_BUFFER, ib);
+  gl.bufferData(gl.ELEMENT_ARRAY_BUFFER, new Uint16Array(idx), gl.STATIC_DRAW);
+  gl.count = idx.length;
+
+  tex = gl.createTexture();
+  gl.bindTexture(gl.TEXTURE_2D, tex);
+  gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_S, gl.CLAMP_TO_EDGE);
+  gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_T, gl.CLAMP_TO_EDGE);
+  gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MIN_FILTER, gl.LINEAR);
+  gl.canvas = c;
+  return true;
+}
+
+function mat(aspect) {
+  const f = 1 / Math.tan(fov * Math.PI / 360), n = 0.1, fa = 10;
+  const P = [f / aspect, 0, 0, 0, 0, f, 0, 0, 0, 0, (fa + n) / (n - fa), -1, 0, 0, 2 * fa * n / (n - fa), 0];
+  const cy = Math.cos(yaw), sy = Math.sin(yaw), cp = Math.cos(pitch), sp = Math.sin(pitch);
+  const V = [cy, sy * sp, -sy * cp, 0, 0, cp, sp, 0, sy, -cy * sp, cy * cp, 0, 0, 0, 0, 1];
+  const o = new Float32Array(16);
+  for (let i = 0; i < 4; i++) for (let j = 0; j < 4; j++) {
+    let s = 0;
+    for (let k = 0; k < 4; k++) s += V[i * 4 + k] * P[k * 4 + j];
+    o[i * 4 + j] = s;
+  }
+  return o;
+}
+
+function draw() {
+  raf = 0;
+  const c = gl.canvas, w = stage.clientWidth, h = 460;
+  if (c.width !== w * devicePixelRatio) { c.width = w * devicePixelRatio; c.height = h * devicePixelRatio; }
+  gl.viewport(0, 0, c.width, c.height);
+  gl.uniformMatrix4fv(gl.getUniformLocation(prog, 'mvp'), false, mat(w / h));
+  gl.clear(gl.COLOR_BUFFER_BIT);
+  gl.drawElements(gl.TRIANGLES, gl.count, gl.UNSIGNED_SHORT, 0);
+}
+const redraw = () => { if (!raf) raf = requestAnimationFrame(draw); };
+
+function loadPano(i) {
+  const p = PANOS[i];
+  panoLabel.textContent = `${p.order}. ${p.room}`;
+  document.querySelectorAll('#rooms button').forEach(b =>
+    b.setAttribute('aria-current', String(+b.dataset.p === i)));
+  const img = new Image();
+  img.onload = () => {
+    if (!webglOK) { flat.src = p.file; return; }
+    try {
+      gl.bindTexture(gl.TEXTURE_2D, tex);
+      gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGBA, gl.RGBA, gl.UNSIGNED_BYTE, img);
+      yaw = 0; pitch = 0; redraw();
+    } catch (err) { fallback(p.file); }   // file:// tainted-canvas guard
+  };
+  img.onerror = () => panoLabel.textContent = 'Could not load ' + p.file;
+  img.src = p.file;
+}
+
+let flat;
+function fallback(src) {
+  webglOK = false;
+  if (gl && gl.canvas) gl.canvas.remove();
+  if (!flat) {
+    flat = document.createElement('img');
+    flat.className = 'flat';
+    stage.insertBefore(flat, stage.firstChild);
+    let dx = 0, drag = null;
+    flat.style.objectPosition = '50% 50%';
+    flat.addEventListener('pointerdown', e => { drag = e.clientX; flat.setPointerCapture(e.pointerId); });
+    flat.addEventListener('pointermove', e => {
+      if (drag === null) return;
+      dx = Math.max(0, Math.min(100, dx - (e.clientX - drag) * 0.08));
+      drag = e.clientX;
+      flat.style.objectPosition = dx + '% 50%';
+    });
+    flat.addEventListener('pointerup', () => drag = null);
+    document.querySelector('.hint').textContent =
+      'Flat pan mode — serve this folder over http:// for full 360';
+  }
+  flat.src = src;
+}
+
+webglOK = initGL();
+if (webglOK) {
+  gl.clearColor(0, 0, 0, 1);
+  let drag = null;
+  const c = gl.canvas;
+  c.style.cursor = 'grab';
+  c.addEventListener('pointerdown', e => { drag = [e.clientX, e.clientY]; c.setPointerCapture(e.pointerId); c.style.cursor = 'grabbing'; });
+  c.addEventListener('pointermove', e => {
+    if (!drag) return;
+    yaw -= (e.clientX - drag[0]) * 0.005;
+    pitch = Math.max(-1.4, Math.min(1.4, pitch + (e.clientY - drag[1]) * 0.005));
+    drag = [e.clientX, e.clientY];
+    redraw();
+  });
+  c.addEventListener('pointerup', () => { drag = null; c.style.cursor = 'grab'; });
+  c.addEventListener('wheel', e => {
+    e.preventDefault();
+    fov = Math.max(30, Math.min(100, fov + Math.sign(e.deltaY) * 4));
+    redraw();
+  }, { passive: false });
+  addEventListener('resize', redraw);
+} else {
+  fallback(PANOS[0].file);
+}
+document.getElementById('rooms').addEventListener('click', e => {
+  const b = e.target.closest('button[data-p]');
+  if (b) loadPano(+b.dataset.p);
+});
+loadPano(0);
+</script>
+</body>
+</html>

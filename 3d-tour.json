@@ -1,0 +1,224 @@
+{
+  "viewerUrl": "https://www.zillow.com/view-3d-home/7d83ffdf-a722-4174-b9f2-5ab87aaeac0f",
+  "vrModelGuid": "7d83ffdf-a722-4174-b9f2-5ab87aaeac0f",
+  "format": "equirectangular 4096x2048 JPEG",
+  "count": 27,
+  "panoramas": [
+    {
+      "order": 1,
+      "room": "Foyer",
+      "panoId": "d519f19a02",
+      "file": "01-foyer-d519f19a02.jpg",
+      "url": "https://www.zillowstatic.com/vrmodels/7d83ffdf-a722-4174-b9f2-5ab87aaeac0f/pano/d519f19a02/2488961/ai-enhance/panorama_4k.jpg",
+      "thumbnail": "https://www.zillowstatic.com/vrmodels/7d83ffdf-a722-4174-b9f2-5ab87aaeac0f/pano/d519f19a02/2488961/ai-enhance/thumbnail.jpg"
+    },
+    {
+      "order": 2,
+      "room": "Hallway",
+      "panoId": "48e7a86259",
+      "file": "02-hallway-48e7a86259.jpg",
+      "url": "https://www.zillowstatic.com/vrmodels/7d83ffdf-a722-4174-b9f2-5ab87aaeac0f/pano/48e7a86259/2488961/ai-enhance/panorama_4k.jpg",
+      "thumbnail": "https://www.zillowstatic.com/vrmodels/7d83ffdf-a722-4174-b9f2-5ab87aaeac0f/pano/48e7a86259/2488961/ai-enhance/thumbnail.jpg"
+    },
+    {
+      "order": 3,
+      "room": "Hallway",
+      "panoId": "0fe687a869",
+      "file": "03-hallway-0fe687a869.jpg",
+      "url": "https://www.zillowstatic.com/vrmodels/7d83ffdf-a722-4174-b9f2-5ab87aaeac0f/pano/0fe687a869/2488961/ai-enhance/panorama_4k.jpg",
+      "thumbnail": "https://www.zillowstatic.com/vrmodels/7d83ffdf-a722-4174-b9f2-5ab87aaeac0f/pano/0fe687a869/2488961/ai-enhance/thumbnail.jpg"
+    },
+    {
+      "order": 4,
+      "room": "Hallway",
+      "panoId": "eee56e20d8",
+      "file": "04-hallway-eee56e20d8.jpg",
+      "url": "https://www.zillowstatic.com/vrmodels/7d83ffdf-a722-4174-b9f2-5ab87aaeac0f/pano/eee56e20d8/2488961/ai-enhance/panorama_4k.jpg",
+      "thumbnail": "https://www.zillowstatic.com/vrmodels/7d83ffdf-a722-4174-b9f2-5ab87aaeac0f/pano/eee56e20d8/2488961/ai-enhance/thumbnail.jpg"
+    },
+    {
+      "order": 5,
+      "room": "Primary bedroom",
+      "panoId": "0c1077c5d0",
+      "file": "05-primary-bedroom-0c1077c5d0.jpg",
+      "url": "https://www.zillowstatic.com/vrmodels/7d83ffdf-a722-4174-b9f2-5ab87aaeac0f/pano/0c1077c5d0/2488961/ai-enhance/panorama_4k.jpg",
+      "thumbnail": "https://www.zillowstatic.com/vrmodels/7d83ffdf-a722-4174-b9f2-5ab87aaeac0f/pano/0c1077c5d0/2488961/ai-enhance/thumbnail.jpg"
+    },
+    {
+      "order": 6,
+      "room": "Primary bedroom",
+      "panoId": "1f74fdf790",
+      "file": "06-primary-bedroom-1f74fdf790.jpg",
+      "url": "https://www.zillowstatic.com/vrmodels/7d83ffdf-a722-4174-b9f2-5ab87aaeac0f/pano/1f74fdf790/2488961/ai-enhance/panorama_4k.jpg",
+      "thumbnail": "https://www.zillowstatic.com/vrmodels/7d83ffdf-a722-4174-b9f2-5ab87aaeac0f/pano/1f74fdf790/2488961/ai-enhance/thumbnail.jpg"
+    },
+    {
+      "order": 7,
+      "room": "Primary bedroom",
+      "panoId": "da5a689e74",
+      "file": "07-primary-bedroom-da5a689e74.jpg",
+      "url": "https://www.zillowstatic.com/vrmodels/7d83ffdf-a722-4174-b9f2-5ab87aaeac0f/pano/da5a689e74/2488961/ai-enhance/panorama_4k.jpg",
+      "thumbnail": "https://www.zillowstatic.com/vrmodels/7d83ffdf-a722-4174-b9f2-5ab87aaeac0f/pano/da5a689e74/2488961/ai-enhance/thumbnail.jpg"
+    },
+    {
+      "order": 8,
+      "room": "Primary bedroom",
+      "panoId": "c816b24e29",
+      "file": "08-primary-bedroom-c816b24e29.jpg",
+      "url": "https://www.zillowstatic.com/vrmodels/7d83ffdf-a722-4174-b9f2-5ab87aaeac0f/pano/c816b24e29/2488961/ai-enhance/panorama_4k.jpg",
+      "thumbnail": "https://www.zillowstatic.com/vrmodels/7d83ffdf-a722-4174-b9f2-5ab87aaeac0f/pano/c816b24e29/2488961/ai-enhance/thumbnail.jpg"
+    },
+    {
+      "order": 9,
+      "room": "Primary bathroom",
+      "panoId": "fa08bac4e5",
+      "file": "09-primary-bathroom-fa08bac4e5.jpg",
+      "url": "https://www.zillowstatic.com/vrmodels/7d83ffdf-a722-4174-b9f2-5ab87aaeac0f/pano/fa08bac4e5/2488961/ai-enhance/panorama_4k.jpg",
+      "thumbnail": "https://www.zillowstatic.com/vrmodels/7d83ffdf-a722-4174-b9f2-5ab87aaeac0f/pano/fa08bac4e5/2488961/ai-enhance/thumbnail.jpg"
+    },
+    {
+      "order": 10,
+      "room": "Primary bathroom",
+      "panoId": "3319f49034",
+      "file": "10-primary-bathroom-3319f49034.jpg",
+      "url": "https://www.zillowstatic.com/vrmodels/7d83ffdf-a722-4174-b9f2-5ab87aaeac0f/pano/3319f49034/2488961/ai-enhance/panorama_4k.jpg",
+      "thumbnail": "https://www.zillowstatic.com/vrmodels/7d83ffdf-a722-4174-b9f2-5ab87aaeac0f/pano/3319f49034/2488961/ai-enhance/thumbnail.jpg"
+    },
+    {
+      "order": 11,
+      "room": "Bedroom",
+      "panoId": "37e30e3c24",
+      "file": "11-bedroom-37e30e3c24.jpg",
+      "url": "https://www.zillowstatic.com/vrmodels/7d83ffdf-a722-4174-b9f2-5ab87aaeac0f/pano/37e30e3c24/2488961/ai-enhance/panorama_4k.jpg",
+      "thumbnail": "https://www.zillowstatic.com/vrmodels/7d83ffdf-a722-4174-b9f2-5ab87aaeac0f/pano/37e30e3c24/2488961/ai-enhance/thumbnail.jpg"
+    },
+    {
+      "order": 12,
+      "room": "Bedroom",
+      "panoId": "d9c11627be",
+      "file": "12-bedroom-d9c11627be.jpg",
+      "url": "https://www.zillowstatic.com/vrmodels/7d83ffdf-a722-4174-b9f2-5ab87aaeac0f/pano/d9c11627be/2488961/ai-enhance/panorama_4k.jpg",
+      "thumbnail": "https://www.zillowstatic.com/vrmodels/7d83ffdf-a722-4174-b9f2-5ab87aaeac0f/pano/d9c11627be/2488961/ai-enhance/thumbnail.jpg"
+    },
+    {
+      "order": 13,
+      "room": "Bathroom",
+      "panoId": "53078bc015",
+      "file": "13-bathroom-53078bc015.jpg",
+      "url": "https://www.zillowstatic.com/vrmodels/7d83ffdf-a722-4174-b9f2-5ab87aaeac0f/pano/53078bc015/2488961/ai-enhance/panorama_4k.jpg",
+      "thumbnail": "https://www.zillowstatic.com/vrmodels/7d83ffdf-a722-4174-b9f2-5ab87aaeac0f/pano/53078bc015/2488961/ai-enhance/thumbnail.jpg"
+    },
+    {
+      "order": 14,
+      "room": "Living room",
+      "panoId": "95a3e31a68",
+      "file": "14-living-room-95a3e31a68.jpg",
+      "url": "https://www.zillowstatic.com/vrmodels/7d83ffdf-a722-4174-b9f2-5ab87aaeac0f/pano/95a3e31a68/2488961/ai-enhance/panorama_4k.jpg",
+      "thumbnail": "https://www.zillowstatic.com/vrmodels/7d83ffdf-a722-4174-b9f2-5ab87aaeac0f/pano/95a3e31a68/2488961/ai-enhance/thumbnail.jpg"
+    },
+    {
+      "order": 15,
+      "room": "Living room",
+      "panoId": "d2266bcb5a",
+      "file": "15-living-room-d2266bcb5a.jpg",
+      "url": "https://www.zillowstatic.com/vrmodels/7d83ffdf-a722-4174-b9f2-5ab87aaeac0f/pano/d2266bcb5a/2488961/ai-enhance/panorama_4k.jpg",
+      "thumbnail": "https://www.zillowstatic.com/vrmodels/7d83ffdf-a722-4174-b9f2-5ab87aaeac0f/pano/d2266bcb5a/2488961/ai-enhance/thumbnail.jpg"
+    },
+    {
+      "order": 16,
+      "room": "Dining room",
+      "panoId": "cb1018c3f1",
+      "file": "16-dining-room-cb1018c3f1.jpg",
+      "url": "https://www.zillowstatic.com/vrmodels/7d83ffdf-a722-4174-b9f2-5ab87aaeac0f/pano/cb1018c3f1/2488961/ai-enhance/panorama_4k.jpg",
+      "thumbnail": "https://www.zillowstatic.com/vrmodels/7d83ffdf-a722-4174-b9f2-5ab87aaeac0f/pano/cb1018c3f1/2488961/ai-enhance/thumbnail.jpg"
+    },
+    {
+      "order": 17,
+      "room": "Dining room",
+      "panoId": "ed63211733",
+      "file": "17-dining-room-ed63211733.jpg",
+      "url": "https://www.zillowstatic.com/vrmodels/7d83ffdf-a722-4174-b9f2-5ab87aaeac0f/pano/ed63211733/2488961/ai-enhance/panorama_4k.jpg",
+      "thumbnail": "https://www.zillowstatic.com/vrmodels/7d83ffdf-a722-4174-b9f2-5ab87aaeac0f/pano/ed63211733/2488961/ai-enhance/thumbnail.jpg"
+    },
+    {
+      "order": 18,
+      "room": "Kitchen",
+      "panoId": "d97bc10132",
+      "file": "18-kitchen-d97bc10132.jpg",
+      "url": "https://www.zillowstatic.com/vrmodels/7d83ffdf-a722-4174-b9f2-5ab87aaeac0f/pano/d97bc10132/2488961/ai-enhance/panorama_4k.jpg",
+      "thumbnail": "https://www.zillowstatic.com/vrmodels/7d83ffdf-a722-4174-b9f2-5ab87aaeac0f/pano/d97bc10132/2488961/ai-enhance/thumbnail.jpg"
+    },
+    {
+      "order": 19,
+      "room": "Kitchen",
+      "panoId": "3a05a795f0",
+      "file": "19-kitchen-3a05a795f0.jpg",
+      "url": "https://www.zillowstatic.com/vrmodels/7d83ffdf-a722-4174-b9f2-5ab87aaeac0f/pano/3a05a795f0/2488961/ai-enhance/panorama_4k.jpg",
+      "thumbnail": "https://www.zillowstatic.com/vrmodels/7d83ffdf-a722-4174-b9f2-5ab87aaeac0f/pano/3a05a795f0/2488961/ai-enhance/thumbnail.jpg"
+    },
+    {
+      "order": 20,
+      "room": "Kitchen",
+      "panoId": "4f85cfc63c",
+      "file": "20-kitchen-4f85cfc63c.jpg",
+      "url": "https://www.zillowstatic.com/vrmodels/7d83ffdf-a722-4174-b9f2-5ab87aaeac0f/pano/4f85cfc63c/2488961/ai-enhance/panorama_4k.jpg",
+      "thumbnail": "https://www.zillowstatic.com/vrmodels/7d83ffdf-a722-4174-b9f2-5ab87aaeac0f/pano/4f85cfc63c/2488961/ai-enhance/thumbnail.jpg"
+    },
+    {
+      "order": 21,
+      "room": "Office",
+      "panoId": "1ba1f7718d",
+      "file": "21-office-1ba1f7718d.jpg",
+      "url": "https://www.zillowstatic.com/vrmodels/7d83ffdf-a722-4174-b9f2-5ab87aaeac0f/pano/1ba1f7718d/2488961/ai-enhance/panorama_4k.jpg",
+      "thumbnail": "https://www.zillowstatic.com/vrmodels/7d83ffdf-a722-4174-b9f2-5ab87aaeac0f/pano/1ba1f7718d/2488961/ai-enhance/thumbnail.jpg"
+    },
+    {
+      "order": 22,
+      "room": "Living room",
+      "panoId": "b8aeb3a7a3",
+      "file": "22-living-room-b8aeb3a7a3.jpg",
+      "url": "https://www.zillowstatic.com/vrmodels/7d83ffdf-a722-4174-b9f2-5ab87aaeac0f/pano/b8aeb3a7a3/2488961/ai-enhance/panorama_4k.jpg",
+      "thumbnail": "https://www.zillowstatic.com/vrmodels/7d83ffdf-a722-4174-b9f2-5ab87aaeac0f/pano/b8aeb3a7a3/2488961/ai-enhance/thumbnail.jpg"
+    },
+    {
+      "order": 23,
+      "room": "Living room",
+      "panoId": "e1f2c79887",
+      "file": "23-living-room-e1f2c79887.jpg",
+      "url": "https://www.zillowstatic.com/vrmodels/7d83ffdf-a722-4174-b9f2-5ab87aaeac0f/pano/e1f2c79887/2488961/ai-enhance/panorama_4k.jpg",
+      "thumbnail": "https://www.zillowstatic.com/vrmodels/7d83ffdf-a722-4174-b9f2-5ab87aaeac0f/pano/e1f2c79887/2488961/ai-enhance/thumbnail.jpg"
+    },
+    {
+      "order": 24,
+      "room": "Living room",
+      "panoId": "3f88ff231b",
+      "file": "24-living-room-3f88ff231b.jpg",
+      "url": "https://www.zillowstatic.com/vrmodels/7d83ffdf-a722-4174-b9f2-5ab87aaeac0f/pano/3f88ff231b/2488961/ai-enhance/panorama_4k.jpg",
+      "thumbnail": "https://www.zillowstatic.com/vrmodels/7d83ffdf-a722-4174-b9f2-5ab87aaeac0f/pano/3f88ff231b/2488961/ai-enhance/thumbnail.jpg"
+    },
+    {
+      "order": 25,
+      "room": "Bedroom",
+      "panoId": "aede07b1cb",
+      "file": "25-bedroom-aede07b1cb.jpg",
+      "url": "https://www.zillowstatic.com/vrmodels/7d83ffdf-a722-4174-b9f2-5ab87aaeac0f/pano/aede07b1cb/2488961/ai-enhance/panorama_4k.jpg",
+      "thumbnail": "https://www.zillowstatic.com/vrmodels/7d83ffdf-a722-4174-b9f2-5ab87aaeac0f/pano/aede07b1cb/2488961/ai-enhance/thumbnail.jpg"
+    },
+    {
+      "order": 26,
+      "room": "Kitchen",
+      "panoId": "4ed41f010e",
+      "file": "26-kitchen-4ed41f010e.jpg",
+      "url": "https://www.zillowstatic.com/vrmodels/7d83ffdf-a722-4174-b9f2-5ab87aaeac0f/pano/4ed41f010e/2488961/ai-enhance/panorama_4k.jpg",
+      "thumbnail": "https://www.zillowstatic.com/vrmodels/7d83ffdf-a722-4174-b9f2-5ab87aaeac0f/pano/4ed41f010e/2488961/ai-enhance/thumbnail.jpg"
+    },
+    {
+      "order": 27,
+      "room": "Bathroom",
+      "panoId": "3798ad1486",
+      "file": "27-bathroom-3798ad1486.jpg",
+      "url": "https://www.zillowstatic.com/vrmodels/7d83ffdf-a722-4174-b9f2-5ab87aaeac0f/pano/3798ad1486/2488961/ai-enhance/panorama_4k.jpg",
+      "thumbnail": "https://www.zillowstatic.com/vrmodels/7d83ffdf-a722-4174-b9f2-5ab87aaeac0f/pano/3798ad1486/2488961/ai-enhance/thumbnail.jpg"
+    }
+  ]
+}
